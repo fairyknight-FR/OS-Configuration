@@ -103,3 +103,10 @@
 
 - This will allow you to launch Telegram from your desktop environment easily.
 ---
+
+# OBS-Studio Install :
+```bash
+apt install obs-studio
+```
+
+---
