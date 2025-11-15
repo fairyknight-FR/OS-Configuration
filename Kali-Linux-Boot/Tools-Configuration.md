@@ -87,6 +87,10 @@
 
 5. **Optional - Create desktop shortcut:**
    To make Telegram launchable from your app menu:
+   -  Crete a file by `root` user = `nano /usr/share/applications/telegram.desktop`
+   
+   or
+
    - Create a file named `telegram.desktop` in `~/.local/share/applications/` with the following content:
      ```
      [Desktop Entry]
