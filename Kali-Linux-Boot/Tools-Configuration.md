@@ -24,21 +24,22 @@
 
 ### Steps to Run Joplin AppImage on Kali Linux
 
-1. **Make the AppImage executable**  
-   Open a terminal and navigate to the directory where the Joplin AppImage is downloaded. Run:
+1. [Joplin](https://joplinapp.org/help/install/)
+2. **Make the AppImage executable**
+3. Open a terminal and navigate to the directory where the Joplin AppImage is downloaded. Run:
    ```
    chmod +x Joplin-*.AppImage
    ```
    This command makes the file executable.
 
-2. **Run the AppImage**  
+4. **Run the AppImage**  
    Still in the terminal, execute:
    ```
    ./Joplin-*.AppImage
    ```
    Replace `Joplin-*.AppImage` with the exact filename, or use tab completion to auto-complete the filename.
 
-3. **Optional: Create a desktop shortcut**  
+5. **Optional: Create a desktop shortcut**  
    To create a launcher shortcut for easy access:
    - Create a new file `~/.local/share/applications/joplin.desktop`
    - Add the following content (adjust the path accordingly):
